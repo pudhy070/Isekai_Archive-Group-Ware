@@ -99,3 +99,108 @@ npm run dev
 이메일 아이콘을 클릭하면 바로 문의 가능
 
 Notion 개발 일정: [Isekai Archive Notion](https://www.notion.so/Isekai-Archive-Group-Ware-26f2e04c19d980a0943fefa97a0eb699?source=copy_link)
+
+
+---
+---
+---
+
+# Isekai Archive 🚀
+
+**Isekai Archive（異世界アーカイブ）**は、業務と協業の世界を新しい冒険のように楽しみながら記録できるグループウェアプロジェクトです。
+チームのすべての知識とアイデアを一箇所に集め、簡単に検索・共有できます。
+
+![License](https://img.shields.io/badge/License-MIT-green)
+![Vite](https://img.shields.io/badge/Vite-7.1.5-blue)
+![React](https://img.shields.io/badge/React-19.1.1-blue)
+![MUI](https://img.shields.io/badge/MUI-7.3.1-lightblue)
+
+
+---
+## 🌟 主な機能
+### 🏢 人事・組織管理
+- 従業員情報の管理、組織図の管理、権限管理（管理者権限）
+
+### 🕒 勤怠管理
+- 出退勤の記録、休暇管理、勤務状況の確認
+
+### 💼 CRM (顧客管理)
+- 顧客データの管理、取引履歴、相談記録の管理
+
+### 💰 資金・会計
+- 会計処理、経費管理、予算管理
+
+### ✉️ メール
+- 社内外のメール送受信および管理
+
+### 📁 ONEDDICE (ネットワークドライブ)
+- ファイル共有と一元化ストレージ、チーム別の文書管理
+
+### 📢 お知らせ
+- チームおよび会社のお知らせの登録と確認
+
+### 📅 スケジュール管理
+- 個人およびチームのスケジュール管理、カレンダー表示
+ 
+### 📝 電子決済
+-文書の決裁、承認、履歴管理
+
+### 📇 アドレス帳
+- 社内外の連絡先の管理
+
+---
+## 🛠 技術スタック
+**フロントエンド (FE)**  
+
+<img src="https://img.shields.io/badge/React-19.1.1-blue?logo=react&logoColor=white">  
+<img src="https://img.shields.io/badge/Vite-7.1.5-blue?logo=vite&logoColor=white">  
+<img src="https://img.shields.io/badge/MUI-7.3.1-lightblue?logo=mui&logoColor=white">  
+<img src="https://img.shields.io/badge/Emotion-11.14.1-purple">  
+<img src="https://img.shields.io/badge/React_Router-7.8.2-red">  
+<img src="https://img.shields.io/badge/Axios-1.11.0-lightgrey">  
+<img src="https://img.shields.io/badge/FullCalendar-6.1.19-orange">  
+<img src="https://img.shields.io/badge/React_Big_Calendar-1.19.4-yellow">  
+<img src="https://img.shields.io/badge/Recharts-3.1.2-red">
+
+**バックエンド (BE, 開発予定)**  
+
+<img src="https://img.shields.io/badge/Spring_Boot-3.2.0-green?logo=spring&logoColor=white">  
+<img src="https://img.shields.io/badge/Docker-24.0.5-blue?logo=docker&logoColor=white">  
+<img src="https://img.shields.io/badge/AWS-2025-orange?logo=amazonaws&logoColor=white">
+
+
+---
+
+## 🖥 開発環境
+- OS : Arch Linux , Mac
+
+- Node.js: v22.12.0  
+
+- npm: 最新バージョン  
+
+- ブラウザ: Chrome / Firefox など
+
+```
+# 1. リポジトリのクローン
+git clone https://github.com/pudhy070/Isekai_Archive-Group-Ware.git
+
+# 2. ディレクトリへ移動
+cd Isekai_Archive-Group-Ware
+
+# 3. 依存関係のインストール
+npm install
+
+# 4. 開発サーバーの実行
+npm run dev
+```
+### ⚠ 現在、フロントエンドのみが実装されており、バックエンドの開発完了後にデプロイされる予定です。
+
+🌐 デプロイ
+
+デプロイURL: https://isekai-archive.kro.kr
+
+お問い合わせ : デプロイURLにアクセス → 上部のお問い合わせページにアクセス → Eメールアイコンをクリック
+
+Eメールアイコンをクリックすると、すぐにお問い合わせいただけます。
+
+Notion開発スケジュール: Isekai Archive Notion
