@@ -1,0 +1,34 @@
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.mail-layout {
+    display: flex;
+    height: 80vh;
+}
+
+.mail-sidebar {
+    width: 240px;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.mail-list {
+    width: 350px;
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+    overflow-y: auto;
+}
+
+.mail-content {
+    flex-grow: 1;
+    padding: 24px;
+    overflow-y: auto;
+}
+
+.mail-content-header {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}

@@ -1,0 +1,19 @@
+설치한것
+
+recharts
+react-spreadsheet
+react-router-dom
+axios
+date-fns
+@mui/material
+@mui/icons-material
+@emotion/react 
+@emotion/styled
+@mui/material 
+@mui/x-data-grid 
+@mui/x-data-grid recharts 
+@fullcalendar/react 
+@fullcalendar/daygrid 
+@fullcalendar/timegrid 
+@fullcalendar/interaction
+

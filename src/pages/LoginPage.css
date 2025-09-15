@@ -1,0 +1,108 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.login-background {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #0091cf, #007bb0);
+    position: relative;
+    overflow: hidden;
+}
+
+.grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    grid-auto-rows: 80px;
+    opacity: 0.15;
+    z-index: 1;
+}
+
+.grid-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    animation: fadeInOut 8s ease-in-out infinite;
+    animation-delay: calc(var(--random-delay) * 1s);
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0.1; }
+    50% { opacity: 0.3; }
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 40px 30px;
+    border-radius: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    z-index: 100 !important;
+    width: 100%;
+    max-width: 420px;
+    backdrop-filter: blur(10px);
+    position: relative;
+}
+
+.login-container h1 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #0066a3;
+    text-align: center;
+}
+
+.login-subtitle {
+    font-size: 0.9rem;
+    color: #444;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.login-form {
+    margin-top: 20px;
+    z-index: 101 !important;
+    position: relative;
+}
+
+.login-form .MuiTextField-root {
+    z-index: 102 !important;
+    position: relative;
+}
+
+.login-form .MuiInputBase-root {
+    z-index: 103 !important;
+    position: relative;
+}
+
+.login-form .MuiOutlinedInput-input {
+    z-index: 104 !important;
+    position: relative;
+}
+
+.login-button {
+    margin-top: 20px !important;
+    background-color: #0091cf !important;
+    font-weight: bold !important;
+    height: 45px;
+    border-radius: 6px !important;
+}
+
+.login-button:hover {
+    background-color: #007bb0 !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 145, 207, 0.4);
+}

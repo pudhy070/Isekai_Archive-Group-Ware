@@ -1,0 +1,54 @@
+/* --- header.css --- */
+
+/* 헤더 앱 바 */
+.header-appbar {
+    background-color: #ffffff; /* 배경색을 fff로 고정 */
+    color: #333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* 로고 링크 */
+.header-logo-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+/* 로고 이미지 */
+.header-logo-image {
+    height: 60px;
+}
+
+/* 메뉴 컨테이너 */
+.header-menu-container {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+/* 메뉴 버튼 */
+.header-menu-button {
+    margin: 16px 8px;
+    color: black;
+    display: block;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+/* 다크 모드 스타일 */
+
+/* body에 .dark-mode 클래스가 있을 때 적용되는 스타일 */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* 다크 모드일 때 헤더 색상을 변경하지 않음 (fff로 고정) */
+body.dark-mode .header-appbar {
+    color: #e0e0e0; /* 글자색만 변경 */
+    box-shadow: 0 1px 3px rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .header-menu-button {
+    color: #e0e0e0;
+}

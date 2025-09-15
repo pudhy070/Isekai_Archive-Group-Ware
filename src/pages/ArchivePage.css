@@ -1,0 +1,40 @@
+.archive-card {
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05) !important;
+}
+
+.folder-list {
+    padding: 8px !important;
+}
+
+.folder-list .MuiListItem-root {
+    border-radius: 8px !important;
+    transition: background-color 0.2s ease;
+}
+
+.folder-list .MuiListItem-root:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.folder-list .active-folder {
+    background-color: #e3f2fd !important;
+    font-weight: bold;
+}
+
+.file-list {
+    padding: 8px !important;
+}
+
+.file-item {
+    padding: 12px 16px !important;
+    border-radius: 8px !important;
+    transition: background-color 0.2s ease;
+}
+
+.file-item:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.file-item .MuiTypography-root {
+    font-size: 0.9rem;
+}

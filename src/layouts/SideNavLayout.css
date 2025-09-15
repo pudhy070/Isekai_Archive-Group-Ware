@@ -1,0 +1,52 @@
+.sidenav-layout-container {
+    display: flex;
+}
+
+.sidenav-drawer {
+    width: 80px;
+    flex-shrink: 0;
+}
+
+.sidenav-drawer .MuiDrawer-paper {
+    width: 80px;
+    box-sizing: border-box;
+    border-right: none;
+    position: relative;
+    background-color: #1e88e5;
+}
+
+.sidenav-list {
+    margin-top: 8px !important;
+}
+
+.sidenav-list-item {
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    justify-content: center !important;
+    border-radius: 8px;
+    margin: 4px 8px !important;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.sidenav-list-icon {
+    min-width: 0 !important;
+    color: rgba(255, 255, 255, 0.7);
+    transition: color 0.2s ease-in-out;
+}
+
+.sidenav-list-item:hover,
+.sidenav-list-item.active {
+    background-color: #1565c0;
+}
+
+.sidenav-list-item:hover .sidenav-list-icon,
+.sidenav-list-item.active .sidenav-list-icon {
+    color: #ffffff;
+}
+
+.sidenav-content {
+    flex-grow: 1;
+    padding: 24px;
+    background-color: #f4f6f8;
+    min-height: calc(100vh - 64px);
+}
