@@ -97,3 +97,5 @@ npm run dev
 문의 : 배포 URL 접속 -> 상단 문의 페이지 접속 -> Email 아이콘 클릭
 
 이메일 아이콘을 클릭하면 바로 문의 가능
+
+Notion 개발 일정: [Isekai Archive Notion](https://www.notion.so/Isekai-Archive-Group-Ware-26f2e04c19d980a0943fefa97a0eb699?source=copy_link)
