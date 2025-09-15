@@ -7,7 +7,7 @@ import SideNavLayout from './layouts/SideMenuBar';
 import LoginPage from './pages/LoginPage';
 import HomePage from './pages/HomePage';
 import MainPage from './pages/MainPage';
-import NoticeBoardPage from './pages/NoticeBoardPage';
+import NoticeBoardPage from './pages/NoticeBoardPage.jsx';
 import SchedulePage from './pages/SchedulePage';
 import ApprovalPage from './pages/ApprovalPage';
 import ContactsPage from './pages/ContactsPage';
