@@ -64,7 +64,7 @@ const ContactPage = () => {
 
                     <Grid container spacing={2} justifyContent="center" sx={{ mb: 2 }}>
                         <Grid item>
-                            <Link href="https://github.com/" target="_blank" rel="noopener noreferrer" color="inherit" sx={{ textDecoration: 'none' }}>
+                            <Link href="https://github.com/pudhy070/Isekai_Archive-Group-Ware" target="_blank" rel="noopener noreferrer" color="inherit" sx={{ textDecoration: 'none' }}>
                                 <IconButton color="primary" sx={{ border: '1px solid', borderColor: theme.palette.primary.main, '&:hover': { backgroundColor: theme.palette.primary.light } }}>
                                     <GitHubIcon />
                                 </IconButton>
@@ -72,8 +72,15 @@ const ContactPage = () => {
                             </Link>
                         </Grid>
                         <Grid item>
-                            <Link href="@example.com" color="inherit" sx={{ textDecoration: 'none' }}>
-                                <IconButton color="primary" sx={{ border: '1px solid', borderColor: theme.palette.primary.main, '&:hover': { backgroundColor: theme.palette.primary.light } }}>
+                            <Link href="mailto:pudhy070@gmail.com" color="inherit" sx={{ textDecoration: 'none' }}>
+                                <IconButton
+                                    color="primary"
+                                    sx={{
+                                        border: '1px solid',
+                                        borderColor: theme.palette.primary.main,
+                                        '&:hover': { backgroundColor: theme.palette.primary.light }
+                                    }}
+                                >
                                     <EmailIcon />
                                 </IconButton>
                                 <Typography variant="caption" display="block">Email</Typography>
@@ -81,10 +88,10 @@ const ContactPage = () => {
                         </Grid>
                     </Grid>
                     <Typography variant="body2" color="text.secondary">
-                        기술 스택: React, Vite, MUI, Spring Boot, Docker, AWS, Arch Linux
+                        기술 스택: React 19, Vite 7, MUI v7, Emotion, React Router DOM 7, Axios, FullCalendar, React Big Calendar, Recharts
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                        현재 FE쪽만 되어있습니다. BE 개발 다 되는 즉시 배포가 됩니다.
+                        현재는 프론트엔드만 구현되어 있으며, 백엔드(Spring Boot, Docker, AWS) 개발 완료 후 배포될 예정입니다.
                     </Typography>
                 </Box>
             </Container>
