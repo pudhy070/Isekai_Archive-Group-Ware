@@ -66,8 +66,7 @@
 
 ## 🖥 개발 환경
 
-- 우선순위 1: Arch Linux  
-- 우선순위 2: macOS / Windows  
+- OS : Arch Linux , Mac
 - Node.js: v22.12.0  
 - npm: 최신 버전  
 - 브라우저: Chrome / Firefox 등
@@ -95,6 +94,6 @@ npm run dev
 
 배포 URL: https://isekai-archive.kro.kr
 
-문의 페이지: https://isekai-archive.kro.kr/contact
+문의 : 배포 URL 접속 -> 상단 문의 페이지 접속 -> Email 아이콘 클릭
 
 이메일 아이콘을 클릭하면 바로 문의 가능
